@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Tashkent1990!
+      MYSQL_DATABASE: issue-tracker
+      MYSQL_USER: issue-tracker-user
+      MYSQL_PASSWORD: Juksjg3us9@!
